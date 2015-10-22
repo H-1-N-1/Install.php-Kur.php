@@ -1,0 +1,26 @@
+body { font-family:Lucida Sans, Arial, Helvetica, Sans-Serif; font-size:13px; margin:20px;}
+#orta{margin-left:450px;}
+/*
+	Form Alanı
+*/
+#main { width:960px; margin: 0px auto; border:solid 1px #b2b3b5; -moz-border-radius:10px; padding:20px; background-color:#f6f6f6;}
+#header { text-align:center; border-bottom:solid 1px #b2b3b5; margin: 0 0 20px 0; }
+fieldset { border:none; width:320px;}
+legend { font-size:18px; margin:0px; padding:10px 0px; color:#b0232a; font-weight:bold;}
+label { display:block; margin:15px 0 5px;}
+input[type=text], input[type=password] { width:300px; padding:5px; border:solid 1px #000;}
+.prev, .next { background-color:#b0232a; padding:5px 10px; color:#fff; text-decoration:none;}
+.prev:hover, .next:hover { background-color:#000; text-decoration:none;}
+.prev { float:left;}
+.next { float:right;}
+#steps { list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+#steps li {font-size:24px; float:left; padding:10px; color:#b0b1b3;}
+#steps li span {font-size:11px; display:block;}
+#steps li.current { color:#000;}
+#makeWizard { background-color:#b0232a; color:#fff; padding:5px 10px; text-decoration:none; font-size:18px;}
+#makeWizard:hover { background-color:#000;}
+/* 
+	Button Kaynağı : bestcssbuttongenerator.com 
+*/
+.button {-moz-box-shadow: 0px 1px 0px 0px #fff6af;-webkit-box-shadow: 0px 1px 0px 0px #fff6af;box-shadow: 0px 1px 0px 0px #fff6af;background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);background-color:#ffec64;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border:1px solid #ffaa22;display:inline-block;cursor:pointer;color:#333333;font-family:Arial;font-size:15px;font-weight:bold;padding:6px 24px;text-decoration:none;text-shadow:0px 1px 0px #ffee66;}
+.button:hover {background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);background-color:#ffab23;}
